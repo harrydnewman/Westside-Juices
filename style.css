@@ -1,0 +1,232 @@
+/* Common Variables */
+body {
+    --color-primary: #ffffff;
+    --color-primary-dark: #007f67;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+  
+    background-color: var(--color-primary);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background: var(--color-primary);
+    background-size: cover;
+}
+
+
+@font-face {
+    font-family: Freehouse-Regular;
+    src: url(fonts/freehouse-regular/Freehouse-Regular.ttf);
+}
+
+@font-face {
+    font-family: Freehouse-Rough;
+    src: url(fonts/freehouse-rough/Freehouse-Rough.ttf);
+}
+
+@font-face {
+    font-family: Freehouse-Wide;
+    src: url(fonts/freehouse-wide/Freehouse-Wide.ttf);
+}
+
+p{
+    text-align: center;
+    justify-content: center;
+}
+
+.header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #007f67;
+    align-items: center;
+}
+
+.header-bar h1 {
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 22px;
+    margin-top: 10px;
+    font-family: Freehouse-Rough;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+button {
+    width: 130px;
+    height: 245px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+    margin-bottom: 30px;
+    transition: transform 0.3s; 
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.juice-buttons {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-button {
+    width: 65px;
+    height: 245px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.juice {
+    width: 130px;
+    height: 237.08px;
+}
+
+.about {
+    width: 65px;
+    height: 237.08px;
+}
+
+
+
+
+
+.review {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.review h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Freehouse-Regular;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: Freehouse-Regular;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: Freehouse-Regular;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.ingredients {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.review p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.price {
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.review-number{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.note {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.back-to-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-section a {
+    text-align: center;
+    justify-content: center;
+}
+
+.sources-section{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sources-section p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.about-section{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.about-section p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.about-section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 378px;
+    height: auto;
+}
+
+.keels-photo {
+    width: 100%;
+    max-width: 378px; 
+    height: auto;
+    margin: 20px auto; 
+}
